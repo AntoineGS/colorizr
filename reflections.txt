@@ -1,0 +1,20 @@
+How does your gem take advantage of Ruby’s metaprogramming capabilities?
+  Both the self.colors and self.create_colors methods use meta-programming.
+  The former uses .send to loop method calls for the colors while the latter
+  creates all of the color methods to color the text output.
+
+How long did you spend working on this project?
+  This project took about 3 hours to do.
+
+What was the most rewarding challenge you conquered?
+  Figuring out why the following would result in String being outputted instead
+  of the actual string contect.
+    class_eval("def #{color}; \"\\e[#{code}m#{self}\\e[0m\" end")
+  I ended needing to add a slash like \#{self) to make it work (thanks to the
+  Udacity forums!).
+
+Where do you still have room to grow?
+  Meta-programming can be difficult to grasp properly, though I have a basic
+  understanding of it I am sure there are many uses I am not yet seeing for it.
+  I am also not convinced on using a method to store a hash array, though it
+  does seem to work hence why I have kept it.
