@@ -24,3 +24,12 @@ or
 
 
 ## Installation instructions
+To install, simply download the gem and use the following command:
+  gem install colorizr-[version].gem
+  ie: gem install colorizr-0.0.1.gem
+
+Do not forget to add the following to your code:
+  require 'colorizr'
+
+
+Enjoy the gem!
