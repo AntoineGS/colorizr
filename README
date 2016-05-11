@@ -1,0 +1,26 @@
+# Colorizr Gem
+
+## Overview
+This gem allows the user to color strings with the following colors:
+  red
+  green
+  yellow
+  blue
+  pink
+  light_blue
+  white
+  light_grey
+  black
+
+New colors can easily be added by changing the self.available_colors method.
+
+
+## Usage
+Using the gem is very simple, simply call the method by the color's name like here:
+  "A STRING".red
+or
+  a_string= "THIS IS A STRING";
+  a_string.blue;
+
+
+## Installation instructions
